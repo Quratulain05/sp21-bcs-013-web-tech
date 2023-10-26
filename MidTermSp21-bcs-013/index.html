@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        /* Custom CSS for modifying the color of flex boxes and text color */
+        .d-flex.flex-row.bd-highlight.mb-3 > div {
+          /* Set the background color of the flex boxes to red */
+          background-color: red;
+          /* Set the text color of the flex boxes to white */
+          color: white;
+          /* Add padding and margin for spacing */
+          padding: 10px;
+          margin: 5px;
+        }
+        .dropdown .btn-secondary {
+        background-color: red;
+        border-color: red;
+        color: white; 
+
+        }
+
+        .dropdown .btn-secondary:hover,
+        .dropdown .btn-secondary:focus {
+        background-color: darkred;
+        color: white;
+}
+
+
+
+
+
+      </style>
+
+
+</head>
+<body>
+  <div class="header">
+    <img src="img/New Logo PPO.jpg" ></div>
+    <script>
+     
+      const logo = document.getElementById("logo");
+      const mainMenu = document.getElementById("main-menu");
+      
+     
+      logo.onclick = function() {
+      
+        mainMenu.remove();
+      };
+    </script>
+    
+
+    <div class="d-flex flex-row bd-highlight mb-3">
+        <div class="home">Home</div>
+        <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              MailServices
+            </a>
+          
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+           ExpressPort
+            </a>
+          
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              Finantial Services
+            </a>
+          
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>  
+      
+        <div class="postalCode">postal code</div>
+        <div class="Stamps">Stamps</div>
+        <div class="contactUs">Contact Us</div>
+     
+     </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+<div>
+<div class="content">
+  <divclass=" right-area">
+    <div class="aboutUs">
+      <h1><span><i class="fas fa-user"></i></span>About Us</h1>
+      <p>Pakistan Post Office is one of the oldest government departments in the Sub-Continent. In 1947, it began functioning as the Department of Post & Telegraph. In 1962 it was separated from the Telegraph & Telephone and started working as an independent attached department.</p>
+     </div>
+     
+      <div class="PostalNetwork">
+          <h1>Postal Network</h1>
+          
+          <p>Pakistan Post is providing postal services in every nook and corner of the country through a network of around 13,000 post offices. Pakistan Post is providing delivery services to about 20 million households and businesses as community service without any cost consideration. In addition to its traditional role, Pakistan Post also performs Agency Functions on behalf of Federal and Provincial governments, which inter-alia include Savings Bank, Postal Life Insurance, Collection of Taxes, Collection of Electricity, Water, Sui Gas and Telephone bills.
+            Pakistan Post is also providing a universal postal service network in harmony with the Universal Postal Union (UPU) strategy to ensure secure and timely delivery of mail, money and material at affordable cost through utilization of postal workers, process and technology and innovative product offering.</p>
+      </div>
+  
+      <div class="Organization">
+          <h1>Organization</h1>
+          
+          <p>An autonomous High Powered Postal Services Management Board has been established through Pakistan Postal Services Management Board Ordinance, 2002. The Executive Management of postal and allied services under the Directorate General is done at three levels – the Circle Level, the Regional Level and Divisional / District Level.
+            Each Circle is headed by a Postmaster General. In carrying out their responsibilities, the Postmasters General are assisted by the Regional Deputy Postmasters General and Unit Officers at operational level.
+          </p>
+      </div>
+  </div>
+  
+
+</div>
+            
+
+
+
+
+
+</div>
+            
+<div class="row" data-aos="zoom-in-up" data-aos-offset="200">
+  <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+    <div class="card">
+      <div class="card-body">
+        <i class="fa fa-cc-mastercard"></i>
+        <h5 class="card-title">SECURE PAYMENT</h5>
+        <p class="card-text">We ensure 100% secure payment.</p>
+        <a href="#" class="btn btn-primary">More information!</a>
+        <div class="card" style="width: 18rem;">
+          <img src="img/tree-736885_1280.jpg" class="" >
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+    <div class="card">
+      <div class="card-body">
+        <i class="fa fa-truck"></i>
+        <h5 class="card-title">FREE DELIVERY</h5>
+        <p class="card-text">Free Delivery in all cities above order of 50K.</p>
+        <a href="#" class="btn btn-primary">Order now!</a>
+        <div class="card" style="width: 18rem;">
+          <img src="img/tree-736885_1280.jpg" class="" >
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+    <div class="card">
+      <div class="card-body">
+        <i class="fa fa-handshake-o"></i>
+        <h5 class="card-title">EXCHANGE POLICY</h5>
+        <p class="card-text">Return within 7 days to exchange.</p>
+        <a href="#" class="btn btn-primary">More FAQs!</a>
+        <div class="card" style="width: 18rem;">
+          <img src="img/tree-736885_1280.jpg" class="" >
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+      </div>      
+
+</body>
+</html>
