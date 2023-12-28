@@ -1,0 +1,41 @@
+<div class="text-center mb-5">
+  <a href="/admin/products/add" class="btn btn-danger btn-lg">Add Products</a>
+</div>
+
+<table class="table table-hover">
+  <thead style="background-color: #1de35c">
+    <tr>
+      <th>Name</th>
+      <th>Category</th>
+      <th>Stock Quantity</th>
+      <th>Price</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% if (products.length === 0) { %>
+    <tr>
+      <td colspan="4">No Data to Show</td>
+    </tr>
+    <% } else { %> <% for (let index = 0; index < products.length; index++) { %>
+    <tr>
+      <td><%= products[index].name %></td>
+      <td><%= products[index].category %></td>
+      <td><%= products[index].countInStock %></td>
+      <td><%= products[index].price %></td>
+      <td>
+        <a
+          href="/admin/products/edit/<%= products[index]._id %>"
+          class="btn btn-info"
+          >Edit</a
+        >
+        <a
+          href="/admin/products/delete/<%= products[index]._id %>"
+          class="btn btn-primary"
+          >Delete</a
+        >
+      </td>
+    </tr>
+    <% } %> <% } %>
+  </tbody>
+</table>

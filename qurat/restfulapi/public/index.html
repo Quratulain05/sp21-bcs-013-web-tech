@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yume-galler.com</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Nunito:wght@200&family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<header id="home">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 border-bottom fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-2" href="index.html">Pet<span class="text-primary">Mania</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="products">Products</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contact">Contact</a>
+              </li>
+          </div>
+        </div>
+          <button type="button" class="btn btn-outline-success ml-3" onclick="window.location.href='login'">LOGIN</button>
+          <button type="button" class="btn btn-outline-success ml-3" onclick="window.location.href='register'">REGISTER</button>
+        </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5>Welcome to PetMania :)</h5>
+              <p>Buy for your Pets at Pakistan's largest Online Pet Store..!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/5.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5>Welcome to PetMania :)</h5>
+              <p>Buy for your Pets at Pakistan's largest Online Pet Store..!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/7.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5>Welcome to PetMania:)</h5>
+              <p>Buy for your Pets at Pakistan's largest Online Pet Store..!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/6.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5>Welcome to PetMania :)</h5>
+              <p>Buy for your Pets at Pakistan's largest Online Pet Store..!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/8.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5>Welcome to PetMania :)</h5>
+              <p>Buy for your Pets at Pakistan's largest Online Pet Store..!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/3.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5>Welcome to PetMania :)</h5>
+              <p>Buy for your Pets at Pakistan's largest Online Pet Store..!</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</header>
+
+<section class="about my-5" id="about">
+  <div class="container">
+    <div class="text-center my-5">
+    <h1 data-aos="fade-up" data-aos-offset="200">About <span class="text-danger">us</span></h1>
+    <hr class="w-25 m-auto">
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="zoom-in" data-aos-offset="200">
+      <h1>Who we are?</h1>
+      <p class="p-2">
+        In this technological era, now you can buy Pet accessories online, We are providing qualitative, luxurious and affordable Pet accessories all over Pakistan. So what are you waiting for, Explore our wide range and buy online Pet food in Pakistan!
+      </p>
+      <button type="button" class="btn btn-info mb-5">Our Team</button>
+      <div class="accordion accordion-flush" id="accordionFlushExample" data-aos="zoom-in-left" data-aos-offset="200">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Our Experience in field
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              We have been in business since <strong>60 years</strong>.  offering a diverse array of pet shop accessories to enhance your pet's life. Our range includes vibrant and imaginative items, catering to all your pet needs while ensuring affordability.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Our Concern for Customers
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              The essential element of every pet's home is the accessories, and these are the first things to consider while planning your pet's living space. Your pet's accessories need to be functional and fashionable, as they reflect your care and attention to detail. They also represent the first impression of your pet's environment, and we are here to make it look comfortable, luxurious, and stylish.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Qualitative Online Services
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              Whether it is sculptural, standalone or a geometric furnishing accessory or contemporary knoll or Kartell designed  pet furniture you are looking for; Pet<span class="text-primary">Mania</span>Whether you are seeking a sculptural, standalone, or geometric pet accessory, or contemporary and stylish items for your pet's comfort and enjoyment, we have a diverse range to cater to your needs. Our pet shop specializes in providing high-quality, modern designs that are both functional and aesthetically pleasing for your beloved pets.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+    <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end mt-5" data-aos="fade-right" data-aos-offset="200">
+        <img src="img/9.jpg" class="img-fluid img-thumbnail">
+
+  </div>
+</div>
+</div>
+
+</section>
+
+<section class="services py-5 bg-light" id="services">
+  <div class="container">
+    <div class="text-center my-5">
+      <h1 data-aos="fade-up" data-aos-offset="200">Our <span class="text-danger">Services</span></h1>
+      <hr class="w-25 m-auto">
+      </div>
+      <div class="row" data-aos="zoom-in-up" data-aos-offset="200">
+      <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+        <div class="card">
+          <div class="card-body">
+            <i class="fa fa-cc-mastercard"></i>
+            <h5 class="card-title">SECURE PAYMENT</h5>
+            <p class="card-text">We ensure 100% secure payment.</p>
+            <a href="#" class="btn btn-primary">More information!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+        <div class="card">
+          <div class="card-body">
+            <i class="fa fa-truck"></i>
+            <h5 class="card-title">FREE DELIVERY</h5>
+            <p class="card-text">Free Delivery in all cities above order of 10K.</p>
+            <a href="#" class="btn btn-primary">Order now!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+        <div class="card">
+          <div class="card-body">
+            <i class="fa fa-handshake-o"></i>
+            <h5 class="card-title">EXCHANGE POLICY</h5>
+            <p class="card-text">Return within 7 days to exchange.</p>
+            <a href="#" class="btn btn-primary">More FAQs!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5" data-aos="zoom-in-down" data-aos-offset="200">
+      <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+        <div class="card">
+          <div class="card-body">
+            <i class="fa fa-commenting"></i>
+            <h5 class="card-title">SUPPORT 24/7</h5>
+            <p class="card-text">You could contact us 24 hours a day, 7even days a week.</p>
+            <a href="#" class="btn btn-primary">Contact now!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+        <div class="card">
+          <div class="card-body">
+            <i class="fa fa-calendar-check-o"></i>
+            <h5 class="card-title">ORDER TRACKING</h5>
+            <p class="card-text">You could track your order using your Order Confirmation ID.</p>
+            <a href="#" class="btn btn-primary">Track now!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+        <div class="card">
+          <div class="card-body">
+            <i class="fa fa-hourglass-2"></i>
+            <h5 class="card-title">ORDER CANCELLATION</h5>
+            <p class="card-text">You could cancel your order within 24 hours, before Confirmation Mail.</p>
+            <a href="#" class="btn btn-primary">Cancel now!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="products my-5 text-center" id="products">
+  <div class="container">
+    <div class="text-center my-5">
+      <h1 data-aos="fade-up" data-aos-offset="200">Our <span class="text-danger">Products</span></h1>
+      <hr class="w-25 m-auto">
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+      <div class="card" data-aos="zoom-in-down" data-aos-offset="200">
+        <div class="card-body">
+          <img src="img/7.jpg" class="img-fluid rounded-circle border border-primary">
+          <h5 class="card-title mt-4">Dog trays</h5>
+          <p class="card-text">High-quality Dog Trays for your dogs.</p>
+          <a href="#" class="btn btn-primary">Explore more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+      <div class="card" data-aos="zoom-in-down" data-aos-offset="200">
+        <div class="card-body">
+          <img src="img/8.jpg" class="img-fluid rounded-circle border border-primary pd-2">
+          <h5 class="card-title mt-4">Cat food</h5>
+          <p class="card-text"> Elevate your cats health.</p>
+          <a href="#" class="btn btn-primary">Explore more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+      <div class="card" data-aos="zoom-in-down" data-aos-offset="200">
+        <div class="card-body">
+          <img src="img/10.jpg" class="img-fluid rounded-circle border border-primary pd-2">
+          <h5 class="card-title mt-4">Pet Sofa</h5>
+          <p class="card-text">Shop stylish & comfortable, luxurious sofa sets for your pet's space at our store. </p>
+          <a href="#" class="btn btn-primary">Explore more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+      <div class="card" data-aos="zoom-in-down" data-aos-offset="200">
+        <div class="card-body">
+          <img src="img/11.jpg" class="img-fluid rounded-circle border border-primary pd-2">
+          <h5 class="card-title mt-4">CHAINS</h5>
+          <p class="card-text">  we have the perfect fits.</p>
+          <a href="#" class="btn btn-primary">Explore more</a>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+    </div>
+
+</section>
+
+<section class="contact py-5" id="contact">
+  <div class="container">
+    <div class="text-center my-5">
+      <h1 data-aos="fade-up" data-aos-offset="200">Contact <span class="text-danger">us</span></h1>
+      <hr class="w-25 m-auto">
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-9 col-lg-9 col-12" data-aos="fade-up" data-aos-offset="200">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Name</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Contact</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="House No.123 Block B Street 2 DHA EME Phase 12">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose..</option>
+            <option>Punjab</option>
+            <option>Khyber Pakhtunkhwa</option>
+            <option>Sindh</option>
+            <option>Balochistan</option>
+
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Keep me updated on news & discount offerings!
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+
+  </div>
+  </div>
+
+</section>
+
+<div class="container py-5" id="log-form">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card">
+        <h1 class="card-title text-center py-5 mb-4 bg-info text-danger">LOGIN</h1>
+        <div class="card-body">
+          <form  id="login-form">
+            <div class="mb-3">
+              <label for="login-email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="login-email" name="login-email" required placeholder="Enter email">
+            </div>
+            <div class="mb-3">
+              <label for="login-password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="login-password" name="login-password" required placeholder="Enter Password">
+            </div>
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-primary">Log In</button>
+            </div>
+            <div class="text-center mt-3">
+              <a href="#" class="text-muted text-decoration-none">Forgot Password?</a>
+            </div>
+            <div class="text-center mt-3">
+              Don't have an account? <a href="javascript:void(0);" class="text-decoration-none" id="show-signup" onclick="showSignUpForm()">Sign up!</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container py-5" id="sign-form" style="display: none;">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card">
+        <h1 class="card-title text-center py-5 mb-2 bg-info text-danger">SIGN UP</h1>
+        <div class="card-body">
+          <p class="text-center mb-5">To become a part of our community, Please Sign Up using your personal information.</p>
+          <form id="signup-form">
+            <div class="mb-3">
+              <label for="signup-username" class="form-label">Username</label>
+              <input type="text" class="form-control" id="signup-username" name="signup-username" required placeholder="Enter a Username">
+            </div>
+
+            <div class="mb-3">
+              <label for="signup-email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="signup-email"  name="signup-email" required placeholder="Enter a valid email">
+            </div>
+            <div class="mb-3">
+              <label for="signup-password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="signup-password"  name="signup-password" required placeholder="Enter a Password">
+            </div>
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-primary">Sign Up</button>
+            </div>
+            <div class="text-center mt-3">
+              <input class="form-check-input" type="checkbox" id="agree" name="agree" required>
+              <label class="form-check-label" for="agree">
+              I agree to the <a href="#" class="text-success text-decoration-none">Terms & Conditions.</a>
+              <div id="agree-error" class="text-danger"></div>
+
+              </label>
+            </div>
+            <div class="text-center mt-3">
+              Already have an account? <a href="javascript:void(0);" class="text-decoration-none" id="show-login" onclick="showLoginForm()">Login!</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid bg-secondary text-light p-4 fs-6">
+  <div class="row">
+    <div class="col text-left">
+      Yume-<span class="text-primary">GALLER</span> © 2023 Developed by <span class="text-warning">SP21-BCS-061</span>
+      </div>
+      <div class="col text-center">
+  <i class="fa fa-whatsapp bg-success p-1 text-white rounded fs-5"></i>
+  <i class="fa fa-youtube bg-danger p-1 text-white rounded fs-5"></i>
+  <i class="fa fa-facebook bg-primary p-1 text-white rounded fs-5"></i>
+  <i class="fa fa-instagram bg-warning p-1 text-white rounded fs-5"></i>
+  <i class="fa fa-pinterest bg-danger p-1 text-white rounded fs-5"></i>
+</div>
+<div class="col text-center justify-content-end">
+  <i class="fa fa-cc-paypal bg-primary p-1 text-white rounded fs-5"></i>
+  <i class="fa fa-cc-jcb bg-danger p-1 text-white rounded fs-5"></i>
+  <i class="fa fa-cc-visa bg-info p-1 text-white rounded fs-5"></i>
+</div>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+
+
+</html>
